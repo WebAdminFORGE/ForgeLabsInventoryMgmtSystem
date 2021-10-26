@@ -3,3 +3,8 @@ volumes/db/data
 volumes/web/data
 .env
 .env.bak
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
